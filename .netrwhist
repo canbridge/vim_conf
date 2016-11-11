@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/root/promotion_sys-master-3692a5e210a374bb07c8a8e9a6f5a722e891edf1/promotion/forms'
+let g:netrw_dirhist_2='/root/promotion_sys-master-3692a5e210a374bb07c8a8e9a6f5a722e891edf1/promotion'
+let g:netrw_dirhist_3='/root/promotion_sys-master-3692a5e210a374bb07c8a8e9a6f5a722e891edf1/promotion/templates/base'
+let g:netrw_dirhist_4='/root/mysite/mysite'
+let g:netrw_dirhist_5='/root/software/celery-4.0.0/examples/django/proj/celery'
+let g:netrw_dirhist_6='/root/software/Django-1.9.5/django/core/handlers'
+let g:netrw_dirhist_7='/root/.vim'
