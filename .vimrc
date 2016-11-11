@@ -34,10 +34,12 @@ filetype plugin indent on     " required
 ""easymotion start ------------------------------------
  map  <Leader>f <Plug>(easymotion-bd-f)
  nmap <Leader>f <Plug>(easymotion-overwin-f)
-map <Leader>L <Plug>(easymotion-bd-jk)
-nmap <Leader>L <Plug>(easymotion-overwin-line)
 map  <Leader>w <Plug>(easymotion-bd-w)
 nmap <Leader>w <Plug>(easymotion-overwin-w)
+map <Leader>j <Plug>(easymotion-j)
+nmap <Leader>k <Plug>(easymotion-k)
+
+
 ""easymotion start ------------------------------------
 
 
@@ -56,6 +58,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 "nerdtree end ------------------------------------------
+
 
 ""taglist start-----------------------
 noremap <F3> :TlistToggle<CR>
@@ -79,3 +82,6 @@ nnoremap <C-H> <C-W><C-H>
 
 "fold ----------------------------------,结合PYTHON_MODE 做到空格折叠
 nnoremap <space> za
+
+set hlsearch
+set novisualbell
